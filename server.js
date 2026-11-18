@@ -23,7 +23,7 @@ import cachedUser from '@utils/cacheMethods';
 import loadRoutes from '@plugins/loadRoutes';
 import Pack from './package.json';
 
-const totalCPUs = os.cpus().length;
+const totalCPUs = (Number(process.env.WEB_CONCURRENCY) || os.cpus().length);
 
 const prepDatabase = async () => {
   await models.sequelize
