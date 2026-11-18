@@ -43,7 +43,7 @@
     "@hapi/inert": "^7.1.0",
     "@hapi/joi-date": "^2.0.1",
     "@hapi/vision": "^7.0.3",
-    "axios": "^1.6.7",
+    "axios": "^1.16.0",
     "cardinal": "^2.1.1",
     "cls-rtracer": "^2.6.3",
     "dotenv": "^16.4.5",
