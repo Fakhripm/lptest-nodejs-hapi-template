@@ -132,6 +132,7 @@
     }
   },
   "resolutions": {
+    "decode-uri-component": "0.2.1",
     "browserslist": "4.28.7",
     "@hapi/content": "6.0.3"
   }
