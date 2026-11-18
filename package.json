@@ -132,6 +132,7 @@
     }
   },
   "resolutions": {
+    "browserslist": "4.28.7",
     "@hapi/content": "6.0.3"
   }
 }
