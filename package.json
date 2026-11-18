@@ -130,5 +130,8 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "resolutions": {
+    "@hapi/content": "6.0.3"
   }
 }
